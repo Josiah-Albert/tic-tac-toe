@@ -1,0 +1,19 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  font-size: 2em;
+}
+
+.square:nth-child(odd) { background-color: #888; }
+.square:nth-child(even) { background-color: #bbb; }
